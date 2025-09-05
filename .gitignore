@@ -3,4 +3,6 @@ resources/
 .hugo_build.lock
 docs/
 /-local/
+node_modules/
+public-local/
 
