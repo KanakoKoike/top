@@ -1,6 +1,6 @@
 baseURL = "https://kanakokoike.github.io/top/"
 languageCode = "ja-jp"
-title = "福嶋佳菜子 | 認定遺伝カウンセラー／国際医療福祉大学 助教"
+title = "Koike Kanako"
 
 # During Hugo builds, ignore static/index.html so that the
 # theme-rendered homepage takes precedence. Static index is
@@ -54,4 +54,11 @@ ignoreFiles = ["^static/index\\.html$"]
     name = "Contact"
     url  = "#contact"
     weight = 90
+
+[params]
+  [params.header]
+    [params.header.navbar]
+      [params.header.navbar.logo]
+        # Brand text shown at top-left of navbar
+        text = "Kanako Koike FUKUSHIMA"
 
