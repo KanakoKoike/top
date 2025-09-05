@@ -23,14 +23,14 @@ sections:
     content:
       title: "Profiles"
       text: |
-        [{{< icon name="academicons/orcid" >}}](https://orcid.org/0009-0001-5882-1333)
-        [{{< icon name="brands/x" >}}](https://x.com/kanakokoike_78)
-        [{{< icon name="hero/link" >}} researchmap](https://researchmap.jp/koikekanako)
-        [{{< icon name="hero/link" >}} J-GLOBAL](https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202001017285357450)
-        [{{< icon name="hero/link" >}} KAKEN](https://nrid.nii.ac.jp/ja/nrid/1000030963037)
-        [{{< icon name="hero/building-office" >}} 教員紹介](https://www.iuhw.ac.jp/daigakuin/staff/cat/cat1241/11369.html)
-        [{{< icon name="hero/pencil-square" >}} note](https://note.com/kkoike9114)
-        [{{< icon name="hero/rocket-launch" >}} academist](https://academist-cf.com/fanclubs/354?lang=en)
+        <span style="white-space:nowrap">[{{< icon name="academicons/orcid" >}}](https://orcid.org/0009-0001-5882-1333)</span>
+        <span style="white-space:nowrap">[{{< icon name="brands/x" >}}](https://x.com/kanakokoike_78)</span>
+        <span style="white-space:nowrap">[{{< icon name="hero/link" >}} researchmap](https://researchmap.jp/koikekanako)</span>
+        <span style="white-space:nowrap">[{{< icon name="hero/link" >}} J-GLOBAL](https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202001017285357450)</span>
+        <span style="white-space:nowrap">[{{< icon name="hero/link" >}} KAKEN](https://nrid.nii.ac.jp/ja/nrid/1000030963037)</span>
+        <span style="white-space:nowrap">[{{< icon name="hero/building-office" >}} 教員紹介](https://www.iuhw.ac.jp/daigakuin/staff/cat/cat1241/11369.html)</span>
+        <span style="white-space:nowrap">[{{< icon name="hero/pencil-square" >}} note](https://note.com/kkoike9114)</span>
+        <span style="white-space:nowrap">[{{< icon name="hero/rocket-launch" >}} academist](https://academist-cf.com/fanclubs/354?lang=en)</span>
     design:
       css_style: "font-size: 1.35rem; text-align: center;"
 
@@ -114,5 +114,6 @@ sections:
       text: |
         国際医療福祉大学 東京赤坂キャンパス  
         107-8402 東京都港区赤坂4-1-26  
-        お問い合わせは researchmap の連絡先をご覧ください。
+        お問い合わせは「教員紹介」に記載のメール、または各種SNS等からご連絡ください。
 ---
+
