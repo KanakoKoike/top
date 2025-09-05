@@ -1,4 +1,5 @@
 # Kanako Koike Website（GitHub Pages / Hugo）
+[![Deploy Hugo site to GitHub Pages](https://github.com/KanakoKoike/top/actions/workflows/pages.yml/badge.svg)](https://github.com/KanakoKoike/top/actions/workflows/pages.yml)
 
 このリポジトリは Hugo を用いた個人サイトの公開用リポジトリです。GitHub Actions による自動デプロイを設定しており、main ブランチにプッシュすると自動的に公開されます。低性能な LLM やツールでも操作を誤らないよう、極力手順を細かく記載します。
 
