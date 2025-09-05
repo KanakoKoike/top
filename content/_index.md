@@ -26,11 +26,11 @@ sections:
         <span style="white-space:nowrap">[{{< icon name="academicons/orcid" >}}](https://orcid.org/0009-0001-5882-1333)</span>
         <span style="white-space:nowrap">[{{< icon name="hero/link" >}} researchmap](https://researchmap.jp/koikekanako)</span>
         <span style="white-space:nowrap">[{{< icon name="hero/link" >}} J-GLOBAL](https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202001017285357450)</span>
-        <span style="white-space:nowrap">[{{< icon name="brands/x" >}}](https://x.com/kanakokoike_78)</span>
+        <span style="white-space:nowrap">[{{< icon name="hero/pencil-square" >}} note](https://note.com/kkoike9114)</span>
         <br>
+        <span style="white-space:nowrap">[{{< icon name="brands/x" >}}](https://x.com/kanakokoike_78)</span>
         <span style="white-space:nowrap">[{{< icon name="hero/link" >}} KAKEN](https://nrid.nii.ac.jp/ja/nrid/1000030963037)</span>
         <span style="white-space:nowrap">[{{< icon name="hero/building-office" >}} 教員紹介](https://www.iuhw.ac.jp/daigakuin/staff/cat/cat1241/11369.html)</span>
-        <span style="white-space:nowrap">[{{< icon name="hero/pencil-square" >}} note](https://note.com/kkoike9114)</span>
         <span style="white-space:nowrap">[{{< icon name="hero/rocket-launch" >}} academist](https://academist-cf.com/fanclubs/354?lang=en)</span>
     design:
       css_style: "font-size: 1.35rem; text-align: center;"
@@ -110,6 +110,8 @@ sections:
 
   - block: markdown
     id: contact
+    design:
+      css_style: "text-align: center;"
     content:
       title: "Contact"
       text: |
