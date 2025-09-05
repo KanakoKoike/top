@@ -43,18 +43,20 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Fetch Hugo Modules (non-blocking)
-        continue-on-error: true
+      - name: Fetch Hugo Modules
         run: |
           hugo mod get -u ./...
+
+      - name: Vendor Hugo Modules
+        run: |
+          hugo mod vendor
 
       - name: Install frontend deps (optional)
         continue-on-error: true
         run: |
           if [ -f package.json ]; then npm install; fi
 
-      - name: Build site with Hugo (non-blocking)
-        continue-on-error: true
+      - name: Build site with Hugo
         run: |
           hugo --minify -d ./public
 
