@@ -27,12 +27,12 @@ ignoreFiles = ["^static/index\\.html$"]
     url  = "#news"
     weight = 10
   [[menu.main]]
-    name = "Research"
-    url  = "#research"
-    weight = 20
-  [[menu.main]]
     name = "Publications"
     url  = "#publications"
+    weight = 20
+  [[menu.main]]
+    name = "Research"
+    url  = "#research"
     weight = 30
   [[menu.main]]
     name = "Projects"
@@ -51,10 +51,7 @@ ignoreFiles = ["^static/index\\.html$"]
     url  = "#media"
     weight = 70
   [[menu.main]]
-    name = "Profiles"
-    url  = "#profiles"
-    weight = 80
-  [[menu.main]]
     name = "Contact"
     url  = "#contact"
     weight = 90
+

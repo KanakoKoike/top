@@ -18,12 +18,26 @@ sections:
           url: https://orcid.org/0009-0001-5882-1333
         - text: researchmap
           url: https://researchmap.jp/koikekanako
+
   - block: markdown
-    id: profile-en
+    id: summary-links
     content:
-      title: "Short Profile (EN)"
+      title: ""
       text: |
-        Kanako Koike FUKUSHIMA, PhD (Medical Genetics), is a **Certified Genetic Counselor** and **Assistant Professor** at the International University of Health and Welfare. Her research focuses on **molecular autopsy** for sudden cardiac death and its social implementation to support bereaved families and preventive care.
+        <style>
+        .linklist { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
+        .linklist a { display: inline-flex; align-items: center; gap: 8px; padding: 4px 6px; border-radius: 6px; border: 1px solid transparent; }
+        .linklist a:hover { border-color: currentColor; text-decoration: none; }
+        .linklist .i { width: 16px; height: 16px; opacity: .9; }
+        </style>
+        <ul class="linklist">
+          <li><a href="https://orcid.org/0009-0001-5882-1333" aria-label="ORCID"><svg class="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1.8 6h1.6v8h-1.6V8zm5.6 3.6a2.8 2.8 0 0 1-2.8 2.9h-1V8.8h1a2.8 2.8 0 0 1 2.8 2.8z"/></svg>ORCID</a></li>
+          <li><a href="https://researchmap.jp/koikekanako" aria-label="researchmap"><svg class="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M3 5h18v2H3V5zm0 6h12v2H3v-2zm0 6h18v2H3v-2z"/></svg>researchmap</a></li>
+          <li><a href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202001017285357450" aria-label="J-GLOBAL"><svg class="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 5h2v10h-2V7zm-4 3h2v7H9v-7z"/></svg>J‑GLOBAL</a></li>
+          <li><a href="https://nrid.nii.ac.jp/ja/nrid/1000030963037" aria-label="KAKEN"><svg class="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16v2H4V4zm0 4h10v2H4V8zm0 4h16v2H4v-2zm0 4h10v2H4v-2z"/></svg>KAKEN</a></li>
+          <li><a href="https://x.com/kanakokoike_78" aria-label="X (Twitter)"><svg class="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M4 4l8 8L4 20h3l8-8-8-8H4zm9 0h7v2h-5l-2-2zm0 16l2-2h5v2h-7z"/></svg>X</a></li>
+          <li><a href="https://note.com/kkoike9114" aria-label="note"><svg class="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M4 6a2 2 0 0 1 2-2h9l5 5v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6zm11 0v4h4l-4-4z"/></svg>note</a></li>
+        </ul>
 
   - block: features
     id: news
@@ -41,16 +55,6 @@ sections:
           url: https://www.m3.com/news/iryoishin/1246821
 
   - block: markdown
-    id: research
-    content:
-      title: "Research"
-      text: |
-        - **死後遺伝学的検査（Molecular Autopsy）と社会実装・遺族支援**  
-          若年心臓突然死の死因究明と予防医療に資するMAの価値・課題（倫理・社会・制度・実務）を、質的研究・学会活動・臨床で探究。[KURENAI](https://repository.kulib.kyoto-u.ac.jp/bitstream/2433/285270/1/circj.cj-22-0265.pdf)
-        - **循環器遺伝学／出生前・周産期の遺伝カウンセリング**  
-          学内教育と多職種連携の文脈で、NIPT等を含む検査提供体制・教育体制・ELSIの検討に参画。[厚労科研 総括研究報告書](https://mhlw-grants.niph.go.jp/system/files/report_pdf/11_toukatu_r5_0.pdf)
-
-  - block: markdown
     id: publications
     content:
       title: "Publications"
@@ -66,6 +70,16 @@ sections:
 
         ### 学会発表
         - 主要発表一覧は [researchmap](https://researchmap.jp/koikekanako) を参照
+
+  - block: markdown
+    id: research
+    content:
+      title: "Research"
+      text: |
+        - **死後遺伝学的検査（Molecular Autopsy）と社会実装・遺族支援**  
+          若年心臓突然死の死因究明と予防医療に資するMAの価値・課題（倫理・社会・制度・実務）を、質的研究・学会活動・臨床で探究。[KURENAI](https://repository.kulib.kyoto-u.ac.jp/bitstream/2433/285270/1/circj.cj-22-0265.pdf)
+        - **循環器遺伝学／出生前・周産期の遺伝カウンセリング**  
+          学内教育と多職種連携の文脈で、NIPT等を含む検査提供体制・教育体制・ELSIの検討に参画。[厚労科研 総括研究報告書](https://mhlw-grants.niph.go.jp/system/files/report_pdf/11_toukatu_r5_0.pdf)
 
   - block: markdown
     id: projects
@@ -100,24 +114,6 @@ sections:
         - **m3.com** インタビュー連載（Vol.1–3）。[m3.com](https://www.m3.com/news/iryoishin/1246821)
         - **JACGC公式note寄稿**：養成・教育に関する紹介記事。[note](https://note.com/official_jacgc/n/naeec6ff8d4f4)
         - **Venture Café Tokyo** 登壇・ピッチ。[プロフィール](https://venturecafetokyo.org/speakers/%E4%BD%B3%E8%8F%9C%E5%AD%90-%E7%A6%8F%E5%B6%8B/)
-
-  - block: features
-    id: profiles
-    content:
-      title: "Profiles"
-      items:
-        - name: ORCID
-          url: https://orcid.org/0009-0001-5882-1333
-        - name: researchmap
-          url: https://researchmap.jp/koikekanako
-        - name: J-GLOBAL
-          url: https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202001017285357450
-        - name: KAKEN
-          url: https://nrid.nii.ac.jp/ja/nrid/1000030963037
-        - name: X (Twitter)
-          url: https://x.com/kanakokoike_78
-        - name: note
-          url: https://note.com/kkoike9114
 
   - block: markdown
     id: contact
@@ -165,3 +161,4 @@ sections:
 ---
 
 Welcome.
+
