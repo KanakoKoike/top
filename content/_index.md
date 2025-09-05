@@ -15,44 +15,24 @@ sections:
         alt_text: "Main image"
       buttons:
         - text: ORCID
-          url: https://orcid.org/0009-0001-5882-1333
+          url: "https://orcid.org/0009-0001-5882-1333"
         - text: researchmap
-          url: https://researchmap.jp/koikekanako
-
-  - block: markdown
-    id: summary-links
-    content:
-      title: ""
-      text: |
-        <style>
-        .linklist { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
-        .linklist a { display: inline-flex; align-items: center; gap: 8px; padding: 4px 6px; border-radius: 6px; border: 1px solid transparent; }
-        .linklist a:hover { border-color: currentColor; text-decoration: none; }
-        .linklist .i { width: 16px; height: 16px; opacity: .9; }
-        </style>
-        <ul class="linklist">
-          <li><a href="https://orcid.org/0009-0001-5882-1333" aria-label="ORCID"><svg class="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1.8 6h1.6v8h-1.6V8zm5.6 3.6a2.8 2.8 0 0 1-2.8 2.9h-1V8.8h1a2.8 2.8 0 0 1 2.8 2.8z"/></svg>ORCID</a></li>
-          <li><a href="https://researchmap.jp/koikekanako" aria-label="researchmap"><svg class="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M3 5h18v2H3V5zm0 6h12v2H3v-2zm0 6h18v2H3v-2z"/></svg>researchmap</a></li>
-          <li><a href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202001017285357450" aria-label="J-GLOBAL"><svg class="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 5h2v10h-2V7zm-4 3h2v7H9v-7z"/></svg>J‑GLOBAL</a></li>
-          <li><a href="https://nrid.nii.ac.jp/ja/nrid/1000030963037" aria-label="KAKEN"><svg class="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16v2H4V4zm0 4h10v2H4V8zm0 4h16v2H4v-2zm0 4h10v2H4v-2z"/></svg>KAKEN</a></li>
-          <li><a href="https://x.com/kanakokoike_78" aria-label="X (Twitter)"><svg class="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M4 4l8 8L4 20h3l8-8-8-8H4zm9 0h7v2h-5l-2-2zm0 16l2-2h5v2h-7z"/></svg>X</a></li>
-          <li><a href="https://note.com/kkoike9114" aria-label="note"><svg class="i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M4 6a2 2 0 0 1 2-2h9l5 5v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6zm11 0v4h4l-4-4z"/></svg>note</a></li>
-        </ul>
+          url: "https://researchmap.jp/koikekanako"
 
   - block: features
     id: news
     content:
       title: "What's New"
       items:
-        - name: Circulation Journal 論文（全文PDF: 京都大機関リポジトリ）
+        - name: "Circulation Journal 論文（全文PDF: 京都大機関リポジトリ）"
           description: "研究: Molecular Autopsyの実装に関するFG研究"
-          url: https://repository.kulib.kyoto-u.ac.jp/bitstream/2433/285270/1/circj.cj-22-0265.pdf
-        - name: academist Prize 採択（2024–2025）
+          url: "https://repository.kulib.kyoto-u.ac.jp/bitstream/2433/285270/1/circj.cj-22-0265.pdf"
+        - name: "academist Prize 採択（2024–2025）"
           description: "亡くなった方からの遺伝情報を、ご家族に届けたい"
-          url: https://academist-cf.com/fanclubs/354?lang=en
-        - name: m3.com インタビュー連載（Vol.1-3）
+          url: "https://academist-cf.com/fanclubs/354?lang=en"
+        - name: "m3.com インタビュー連載（Vol.1-3）"
           description: "医療メディアでの連載・インタビュー"
-          url: https://www.m3.com/news/iryoishin/1246821
+          url: "https://www.m3.com/news/iryoishin/1246821"
 
   - block: markdown
     id: publications
@@ -114,50 +94,6 @@ sections:
         - **m3.com** インタビュー連載（Vol.1–3）。[m3.com](https://www.m3.com/news/iryoishin/1246821)
         - **JACGC公式note寄稿**：養成・教育に関する紹介記事。[note](https://note.com/official_jacgc/n/naeec6ff8d4f4)
         - **Venture Café Tokyo** 登壇・ピッチ。[プロフィール](https://venturecafetokyo.org/speakers/%E4%BD%B3%E8%8F%9C%E5%AD%90-%E7%A6%8F%E5%B6%8B/)
-
-  - block: markdown
-    id: contact
-    content:
-      title: "Contact"
-      text: |
-        個別のご連絡は、所属機関の**教員紹介ページ**経由でお願いします。公開SNSや研究者DBのメッセージ機能もご活用ください。  
-        [国際医療福祉大学大学院｜教員紹介（福嶋 佳菜子）](https://www.iuhw.ac.jp/daigakuin/staff/cat/cat1241/11369.html)
-
-  - block: markdown
-    id: structured-data
-    content:
-      title: ""
-      text: |
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Person",
-          "name": "Kanako Koike FUKUSHIMA",
-          "alternateName": ["福嶋 佳菜子", "小池 佳菜子"],
-          "jobTitle": "Assistant Professor / Certified Genetic Counselor",
-          "affiliation": {
-            "@type": "Organization",
-            "name": "International University of Health and Welfare, Graduate School",
-            "url": "https://www.iuhw.ac.jp/daigakuin/"
-          },
-          "alumniOf": [
-            {"@type":"CollegeOrUniversity","name":"Kyoto University"},
-            {"@type":"CollegeOrUniversity","name":"International University of Health and Welfare"}
-          ],
-          "identifier": [
-            {"@type":"PropertyValue","propertyID":"ORCID","value":"0009-0001-5882-1333","url":"https://orcid.org/0009-0001-5882-1333"}
-          ],
-          "sameAs": [
-            "https://orcid.org/0009-0001-5882-1333",
-            "https://researchmap.jp/koikekanako",
-            "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202001017285357450",
-            "https://nrid.nii.ac.jp/ja/nrid/1000030963037",
-            "https://x.com/kanakokoike_78",
-            "https://note.com/kkoike9114",
-            "https://www.iuhw.ac.jp/daigakuin/staff/cat/cat1241/11369.html"
-          ]
-        }
-        </script>
 ---
 
 Welcome.
