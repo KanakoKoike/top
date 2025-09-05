@@ -10,13 +10,6 @@ sections:
       title: "福嶋佳菜子｜Kanako Koike FUKUSHIMA"
       text: |
         若年の心臓突然死で亡くなった方の**死後遺伝学的検査（Molecular Autopsy）**を軸に、家族の予防医療と社会実装を探究する**認定遺伝カウンセラー／研究者**。臨床・教育・研究をつなぎ、「予防可能な死とかなしみを減らす」ことに挑んでいます。
-      primary_action:
-        text: ORCID
-        url: "https://orcid.org/0009-0001-5882-1333"
-        icon: hero/link
-      secondary_action:
-        text: researchmap
-        url: "https://researchmap.jp/koikekanako"
     design:
       background:
         image:
@@ -25,34 +18,19 @@ sections:
           position: center
         text_color_light: true
 
-  - block: cta-button-list
+  - block: markdown
     id: profiles
     content:
-      buttons:
-        - text: ORCID
-          url: "https://orcid.org/0009-0001-5882-1333"
-          icon: "academicons/orcid"
-        - text: researchmap
-          url: "https://researchmap.jp/koikekanako"
-          icon: "hero/link"
-        - text: J-GLOBAL
-          url: "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202001017285357450"
-          icon: "hero/link"
-        - text: KAKEN
-          url: "https://nrid.nii.ac.jp/ja/nrid/1000030963037"
-          icon: "hero/link"
-        - text: 教員紹介（IUHW）
-          url: "https://www.iuhw.ac.jp/daigakuin/staff/cat/cat1241/11369.html"
-          icon: "hero/building-office"
-        - text: X (Twitter)
-          url: "https://x.com/kanakokoike_78"
-          icon: "brands/twitter"
-        - text: note（個人）
-          url: "https://note.com/kkoike9114"
-          icon: "hero/pencil-square"
-        - text: academist
-          url: "https://academist-cf.com/fanclubs/354?lang=en"
-          icon: "hero/rocket-launch"
+      title: "Profiles"
+      text: |
+        [{{< icon name="academicons/orcid" >}}](https://orcid.org/0009-0001-5882-1333)
+        [{{< icon name="hero/link" >}}](https://researchmap.jp/koikekanako)
+        [{{< icon name="hero/link" >}}](https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202001017285357450)
+        [{{< icon name="hero/link" >}}](https://nrid.nii.ac.jp/ja/nrid/1000030963037)
+        [{{< icon name="hero/building-office" >}}](https://www.iuhw.ac.jp/daigakuin/staff/cat/cat1241/11369.html)
+        [{{< icon name="brands/x" >}}](https://x.com/kanakokoike_78)
+        [{{< icon name="hero/pencil-square" >}}](https://note.com/kkoike9114)
+        [{{< icon name="hero/rocket-launch" >}}](https://academist-cf.com/fanclubs/354?lang=en)
 
   - block: features
     id: news
