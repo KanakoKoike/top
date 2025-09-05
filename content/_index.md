@@ -18,6 +18,12 @@ sections:
           url: https://orcid.org/0009-0001-5882-1333
         - text: researchmap
           url: https://researchmap.jp/koikekanako
+  - block: markdown
+    id: profile-en
+    content:
+      title: "Short Profile (EN)"
+      text: |
+        Kanako Koike FUKUSHIMA, PhD (Medical Genetics), is a **Certified Genetic Counselor** and **Assistant Professor** at the International University of Health and Welfare. Her research focuses on **molecular autopsy** for sudden cardiac death and its social implementation to support bereaved families and preventive care.
 
   - block: features
     id: news
@@ -47,11 +53,19 @@ sections:
   - block: markdown
     id: publications
     content:
-      title: "Publications（代表）"
+      title: "Publications"
       text: |
+        ### 査読英語論文
         - Koike K, Nishigaki M, *et al*. **Implementation of Molecular Autopsy for Sudden Cardiac Death in Japan—Focus Group Study of Stakeholders.** *Circulation Journal*. [PDF (KURENAI)](https://repository.kulib.kyoto-u.ac.jp/bitstream/2433/285270/1/circj.cj-22-0265.pdf) / [PubMed](https://pubmed.ncbi.nlm.nih.gov/36372399/)
+
+        ### 和文論文
         - 小池佳菜子・西垣昌和 **若年心臓突然死者への遺伝学的剖検に関する課題**。*日本遺伝カウンセリング学会誌* 41(2)。[medicalonline](https://mol.medicalonline.jp/archive/search?issue=2&jo=dg8genco&vo=41&ye=2020)
+
+        ### 総説・解説
         - 近年の和文総説・寄稿（例）：*BIO Clinica* 40(8) 56-59（2025、筆頭）。[researchmap](https://researchmap.jp/koikekanako)
+
+        ### 学会発表
+        - 主要発表一覧は [researchmap](https://researchmap.jp/koikekanako) を参照
 
   - block: markdown
     id: projects
@@ -151,4 +165,3 @@ sections:
 ---
 
 Welcome.
-
