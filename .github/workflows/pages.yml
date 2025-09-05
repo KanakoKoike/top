@@ -24,6 +24,11 @@ jobs:
           submodules: true
           fetch-depth: 0
 
+      - name: Setup Go (for Hugo Modules)
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21.x'
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
@@ -32,6 +37,19 @@ jobs:
         with:
           hugo-version: '0.149.0'
           extended: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Fetch Hugo Modules
+        run: |
+          hugo mod get -u ./...
+
+      - name: Install frontend deps (Tailwind)
+        run: |
+          if [ -f package.json ]; then npm install; fi
 
       - name: Build site
         run: |
@@ -52,4 +70,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-

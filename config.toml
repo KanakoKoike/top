@@ -1,4 +1,35 @@
 baseURL = "https://kanakokoike.github.io/top/"
 languageCode = "ja-jp"
-title = "My New Hugo Site"
-# theme = "your-theme-name"
+title = "Koike Kanako"
+
+[module]
+  # Wowchemy/Hugo Blox modules for Academic-style site
+  [[module.imports]]
+    path = "github.com/HugoBlox/hugo-blox-builder/starters/academic-cv"
+  [[module.imports]]
+    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind"
+  [[module.imports]]
+    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "What's New"
+    url  = "#news"
+    weight = 10
+  [[menu.main]]
+    name = "Research"
+    url  = "#research"
+    weight = 20
+  [[menu.main]]
+    name = "Achievement"
+    url  = "#achievement"
+    weight = 30
+  [[menu.main]]
+    name = "Contact"
+    url  = "#contact"
+    weight = 40
