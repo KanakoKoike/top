@@ -51,6 +51,10 @@ ignoreFiles = ["^static/index\\.html$"]
     url  = "#media"
     weight = 70
   [[menu.main]]
+    name = "Profiles"
+    url  = "#profiles"
+    weight = 80
+  [[menu.main]]
     name = "Contact"
     url  = "#contact"
     weight = 90
@@ -62,3 +66,8 @@ ignoreFiles = ["^static/index\\.html$"]
         # Brand text shown at top-left of navbar
         text = "Kanako Koike FUKUSHIMA"
 
+  [params.marketing]
+    [params.marketing.seo]
+      site_type = "Person"
+      description = "若年心臓突然死の予防と家族支援をめざすMolecular Autopsyの研究者・認定遺伝カウンセラー。国際医療福祉大学 助教。論文・科研費・教育・メディア情報を掲載。"
+      twitter = "kanakokoike_78"
