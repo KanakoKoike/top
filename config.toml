@@ -2,6 +2,11 @@ baseURL = "https://kanakokoike.github.io/top/"
 languageCode = "ja-jp"
 title = "福嶋佳菜子 | 認定遺伝カウンセラー／国際医療福祉大学 助教"
 
+# During Hugo builds, ignore static/index.html so that the
+# theme-rendered homepage takes precedence. Static index is
+# still used by CI fallback when Hugo fails.
+ignoreFiles = ["^static/index\\.html$"]
+
 [module]
   # Wowchemy/Hugo Blox modules for Academic-style site
   [[module.imports]]
