@@ -63,6 +63,7 @@ jobs:
           if [ ! -d public ] || [ ! -f public/index.html ]; then
             mkdir -p public
             cp -r static/. public/
+            if [ -f public/index.static.html ]; then mv public/index.static.html public/index.html; fi
           fi
 
       - name: Upload artifact
