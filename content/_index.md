@@ -24,13 +24,15 @@ sections:
       title: "Profiles"
       text: |
         [{{< icon name="academicons/orcid" >}}](https://orcid.org/0009-0001-5882-1333)
-        [{{< icon name="hero/link" >}}](https://researchmap.jp/koikekanako)
-        [{{< icon name="hero/link" >}}](https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202001017285357450)
-        [{{< icon name="hero/link" >}}](https://nrid.nii.ac.jp/ja/nrid/1000030963037)
-        [{{< icon name="hero/building-office" >}}](https://www.iuhw.ac.jp/daigakuin/staff/cat/cat1241/11369.html)
         [{{< icon name="brands/x" >}}](https://x.com/kanakokoike_78)
-        [{{< icon name="hero/pencil-square" >}}](https://note.com/kkoike9114)
-        [{{< icon name="hero/rocket-launch" >}}](https://academist-cf.com/fanclubs/354?lang=en)
+        [{{< icon name="hero/link" >}} researchmap](https://researchmap.jp/koikekanako)
+        [{{< icon name="hero/link" >}} J-GLOBAL](https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202001017285357450)
+        [{{< icon name="hero/link" >}} KAKEN](https://nrid.nii.ac.jp/ja/nrid/1000030963037)
+        [{{< icon name="hero/building-office" >}} 教員紹介](https://www.iuhw.ac.jp/daigakuin/staff/cat/cat1241/11369.html)
+        [{{< icon name="hero/pencil-square" >}} note](https://note.com/kkoike9114)
+        [{{< icon name="hero/rocket-launch" >}} academist](https://academist-cf.com/fanclubs/354?lang=en)
+    design:
+      css_style: "font-size: 1.35rem; text-align: center;"
 
   - block: features
     id: news
