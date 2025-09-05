@@ -1,0 +1,5 @@
+baseURL = "https://kanakokoike.github.io/top/"
+publishDir = "docs"
+languageCode = "ja"
+title = "top"
+enableRobotsTXT = true
