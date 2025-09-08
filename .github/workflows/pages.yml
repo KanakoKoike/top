@@ -54,6 +54,10 @@ jobs:
         run: |
           hugo mod get -u ./...
 
+      - name: Fix module cache permissions
+        run: |
+          chmod -R u+w "$GOMODCACHE" || true
+
       - name: Vendor Hugo Modules
         run: |
           hugo mod vendor

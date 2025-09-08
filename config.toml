@@ -7,6 +7,9 @@ title = "Koike Kanako"
 # still used by CI fallback when Hugo fails.
 ignoreFiles = ["^static/index\\.html$"]
 
+[build]
+  writeStats = true
+
 [module]
   # Wowchemy/Hugo Blox modules for Academic-style site
   [[module.imports]]
@@ -72,4 +75,3 @@ ignoreFiles = ["^static/index\\.html$"]
       description = "若年層の突然死の予防と家族支援をめざす Molecular Autopsy の研究者・認定遺伝カウンセラー。国際医療福祉大学 助教。論文・科研費・教育・メディア情報を掲載。"
       twitter = "kanakokoike_78"
       og_locale = "ja_JP"
-
