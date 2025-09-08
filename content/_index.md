@@ -48,9 +48,6 @@ sections:
         - name: "m3.com インタビュー連載 Vol.1 公開"
           description: "医療メディアでの連載・インタビュー"
           url: "https://www.m3.com/news/iryoishin/1246821"
-        - name: "サイトをリニューアル（モバイル最適化・高速化）"
-          description: "2025/09/05"
-          url: "#"
 
   - block: markdown
     id: publications
@@ -118,4 +115,3 @@ sections:
       text: |
         お問い合わせは、公開プロフィールに記載のメールまたは各種SNSからご連絡ください。
 ---
-

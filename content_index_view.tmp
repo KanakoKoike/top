@@ -1,0 +1,108 @@
+﻿---
+title: "Home"
+type: landing
+summary: "闍･蟷ｴ螻､縺ｮ遯∫┯豁ｻ縺ｮ莠磯亟縺ｨ螳ｶ譌乗髪謠ｴ繧偵ａ縺悶☆ Molecular Autopsy 縺ｮ遐皮ｩｶ縲りｪ榊ｮ夐⊆莨昴き繧ｦ繝ｳ繧ｻ繝ｩ繝ｼ・丞嵜髫帛現逋らｦ冗･牙､ｧ蟄ｦ 蜉ｩ謨吶・
+description: "遖丞ｶ倶ｽｳ闖懷ｭ撰ｼ・anako Koike FUKUSHIMA・峨・olecular Autopsy 繧定ｻｸ縺ｫ縲∝ｮｶ譌上・莠磯亟蛹ｻ逋ゅ→遉ｾ莨壼ｮ溯｣・ｒ謗｢遨ｶ縲りｫ匁枚繝ｻ遘醍碑ｲｻ繝ｻ謨呵ご繝ｻ繝｡繝・ぅ繧｢諠・ｱ繝ｻ繝励Ο繝輔ぅ繝ｼ繝ｫ繧呈軸霈峨・
+sections:
+  - block: hero
+    id: hero
+    content:
+      title: "遖丞ｶ倶ｽｳ闖懷ｭ・br>Kanako Koike FUKUSHIMA"
+      text: |
+        <p class="hero-logo"><img src="/top/images/logo.png" alt="Logo"></p>
+        闍･蟷ｴ縺ｮ遯∫┯豁ｻ縺ｧ莠｡縺上↑縺｣縺滓婿縺ｮ<strong>豁ｻ蠕碁⊆莨晏ｭｦ讀懈渊・・olecular Autopsy・・/strong>繧定ｻｸ縺ｫ縲∝ｮｶ譌上・莠磯亟蛹ｻ逋ゅ→遉ｾ莨壼ｮ溯｣・ｒ謗｢遨ｶ縺吶ｋ<strong>隱榊ｮ夐⊆莨昴き繧ｦ繝ｳ繧ｻ繝ｩ繝ｼ・冗皮ｩｶ閠・/strong>縲り・蠎翫・謨呵ご繝ｻ遐皮ｩｶ繧偵▽縺ｪ縺弱・        縲御ｺ磯亟蜿ｯ閭ｽ縺ｪ豁ｻ縺ｨ縺九↑縺励∩繧呈ｸ帙ｉ縺吶阪％縺ｨ縺ｫ謖代ｓ縺ｧ縺・∪縺吶・    design:
+      background:
+        image:
+          filename: "mainimg.jpg"
+          size: cover
+          position: center
+        text_color_light: true
+
+  - block: markdown
+    id: profiles
+    content:
+      title: "Profiles"
+      text: |
+        <span style="white-space:nowrap">[{{< icon name="academicons/orcid" >}}](https://orcid.org/0009-0001-5882-1333)</span>
+        <span style="white-space:nowrap">[{{< icon name="hero/link" >}} researchmap](https://researchmap.jp/koikekanako)</span>
+        <span style="white-space:nowrap">[{{< icon name="hero/link" >}} J-GLOBAL](https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202001017285357450)</span>
+        <span style="white-space:nowrap">[{{< icon name="hero/pencil-square" >}} note](https://note.com/kkoike9114)</span>
+        <br>
+        <span style="white-space:nowrap">[{{< icon name="brands/x" >}}](https://x.com/kanakokoike_78)</span>
+        <span style="white-space:nowrap">[{{< icon name="hero/link" >}} KAKEN](https://nrid.nii.ac.jp/ja/nrid/1000030963037)</span>
+        <span style="white-space:nowrap">[{{< icon name="hero/building-office" >}} 謨吝藤邏ｹ莉犠(https://www.iuhw.ac.jp/daigakuin/staff/cat/cat1241/11369.html)</span>
+        <span style="white-space:nowrap">[{{< icon name="hero/rocket-launch" >}} academist](https://academist-cf.com/fanclubs/354?lang=en)</span>
+    design:
+      css_style: "font-size: 1.35rem; text-align: center;"
+
+  - block: features
+    id: news
+    content:
+      title: "What's New"
+      items:
+        - name: "academist Prize 謗｡謚橸ｼ・024窶・025・・
+          description: "莠｡縺上↑縺｣縺滓婿縺九ｉ縺ｮ驕ｺ莨晄ュ蝣ｱ繧偵√＃螳ｶ譌上↓螻翫￠縺溘＞"
+          url: "https://academist-cf.com/fanclubs/354?lang=en"
+        - name: "m3.com 繧､繝ｳ繧ｿ繝薙Η繝ｼ騾｣霈・Vol.1 蜈ｬ髢・
+          description: "蛹ｻ逋ゅΓ繝・ぅ繧｢縺ｧ縺ｮ騾｣霈峨・繧､繝ｳ繧ｿ繝薙Η繝ｼ"
+          url: "https://www.m3.com/news/iryoishin/1246821"
+        - name: "繧ｵ繧､繝医ｒ繝ｪ繝九Η繝ｼ繧｢繝ｫ・医Δ繝舌う繝ｫ譛驕ｩ蛹悶・鬮倬溷喧・・
+          description: "2025/09/05"
+          url: "#"
+
+  - block: markdown
+    id: publications
+    content:
+      title: "Publications"
+      text: |
+        ### 譟ｻ隱ｭ闍ｱ隱櫁ｫ匁枚
+        - Koike K, Nishigaki M, *et al*. **Implementation of Molecular Autopsy for Sudden Cardiac Death in Japan窶認ocus Group Study of Stakeholders.** *Circulation Journal*. [PDF (KURENAI)](https://repository.kulib.kyoto-u.ac.jp/bitstream/2433/285270/1/circj.cj-22-0265.pdf) / [PubMed](https://pubmed.ncbi.nlm.nih.gov/36372399/)
+
+        ### 蜥梧枚隲匁枚繝ｻ邱剰ｪｬ・域栢邊具ｼ・        - 蟆乗ｱ菴ｳ闖懷ｭ・ 隘ｿ蝙｣譏悟柱. 闍･蟷ｴ逋ｺ逞・・遯∫┯豁ｻ縺ｫ縺翫￠繧矩⊆莨晏ｭｦ逧・､懈渊縺ｮ隱ｲ鬘鯉ｼ壼ｰる摩閨ｷ繧貞ｯｾ雎｡縺ｨ縺励◆繝輔か繝ｼ繧ｫ繧ｹ繝ｻ繧ｰ繝ｫ繝ｼ繝励↓繧医ｋ謗｢邏｢逧・皮ｩｶ. 譌･譛ｬ驕ｺ莨昴き繧ｦ繝ｳ繧ｻ繝ｪ繝ｳ繧ｰ蟄ｦ莨夊ｪ・41(2)・井ｻ厄ｼ峨・
+  - block: markdown
+    id: research
+    content:
+      title: "Research"
+      text: |
+        - **豁ｻ蠕碁⊆莨晏ｭｦ讀懈渊・・olecular Autopsy・峨→遉ｾ莨壼ｮ溯｣・・驕ｺ譌乗髪謠ｴ**  
+          闍･蟷ｴ縺ｮ遯∫┯豁ｻ縺ｮ豁ｻ蝗遨ｶ譏弱→莠磯亟蛹ｻ逋ゅ↓雉・☆繧・MA 縺ｮ萓｡蛟､繝ｻ隱ｲ鬘鯉ｼ亥ｫ逅・・遉ｾ莨壹・蛻ｶ蠎ｦ繝ｻ螳溷漁・峨ｒ縲∬ｳｪ逧・皮ｩｶ繝ｻ蟄ｦ莨壽ｴｻ蜍輔・閾ｨ蠎翫〒謗｢遨ｶ縲・        - **蠕ｪ迺ｰ蝎ｨ驕ｺ莨晏ｭｦ・冗函蜑阪・蜻ｨ逕｣譛溘・驕ｺ莨昴き繧ｦ繝ｳ繧ｻ繝ｪ繝ｳ繧ｰ**  
+          謨呵ご縺ｨ螟夊・遞ｮ騾｣謳ｺ縺ｮ繧ゅ→縲¨IPT 遲峨ｒ蜷ｫ繧讀懈渊謠蝉ｾ帑ｽ灘宛繝ｻ謨呵ご菴灘宛繝ｻELSI 縺ｮ讀懆ｨ弱↓蜿ら判縲・
+  - block: markdown
+    id: projects
+    content:
+      title: "Projects"
+      text: |
+        - **遘醍碑ｲｻ 遐皮ｩｶ豢ｻ蜍輔せ繧ｿ繝ｼ繝域髪謠ｴ・・024窶・025・・*  
+          縲梧ｭｻ蠕碁⊆莨晏ｭｦ讀懈渊縺ｫ縺ｨ繧ゅ↑縺・⊆莨昴き繧ｦ繝ｳ繧ｻ繝ｪ繝ｳ繧ｰ繝｢繝・Ν縺ｮ讒狗ｯ峨搾ｼ井ｻ｣陦ｨ・峨・        - **academist Prize 謗｡謚橸ｼ・024窶・025・・*  
+          縲御ｺ｡縺上↑縺｣縺滓婿縺九ｉ縺ｮ驕ｺ莨晄ュ蝣ｱ繧偵√＃螳ｶ譌上↓螻翫￠縺溘＞縲阪・
+  - block: markdown
+    id: teaching
+    content:
+      title: "Teaching"
+      text: |
+        蝗ｽ髫帛現逋らｦ冗･牙､ｧ蟄ｦ螟ｧ蟄ｦ髯｢ 蛹ｻ逋らｦ冗･牙ｭｦ遐皮ｩｶ遘・菫晏▼蛹ｻ逋ょｭｦ蟆よ判 驕ｺ莨昴き繧ｦ繝ｳ繧ｻ繝ｪ繝ｳ繧ｰ蛻・㍽ 蜉ｩ謨吶る刋螻樒羅髯｢縺ｧ縺ｮ閾ｨ蠎企⊆莨昴き繧ｦ繝ｳ繧ｻ繝ｪ繝ｳ繧ｰ縺ｨ縲∝､ｧ蟄ｦ髯｢縺ｮ謨呵ご繝ｻ鬢頑・隱ｲ遞九↓蠕謎ｺ九・
+  - block: markdown
+    id: awards
+    content:
+      title: "Awards & Honors"
+      text: |
+        - 莠ｬ驛ｽ螟ｧ蟄ｦ 邱城聞雉橸ｼ・018・・        - 莠ｬ驛ｽ螟ｧ蟄ｦ Academic Day 雉橸ｼ・018・・        - 譌･譛ｬ AED 雋｡蝗｣ AED 蜉溷感雉・蜆ｪ遘雉橸ｼ・017・・        - 縺ｻ縺・
+  - block: markdown
+    id: media
+    content:
+      title: "Media & Outreach"
+      text: |
+        - **m3.com** 繧､繝ｳ繧ｿ繝薙Η繝ｼ騾｣霈・Vol.1 窶・[m3.com](https://www.m3.com/news/iryoishin/1246821)
+        - **JACGC 蜈ｬ蠑・note** 窶・鬢頑・繝ｻ謨呵ご縺ｫ髢｢縺吶ｋ邏ｹ莉玖ｨ倅ｺ・窶・[note](https://note.com/official_jacgc/n/naeec6ff8d4f4)
+        - **Venture Cafﾃｩ Tokyo** 逋ｻ螢・・繝斐ャ繝・窶・[繝励Ο繝輔ぅ繝ｼ繝ｫ](https://venturecafetokyo.org/speakers/%E4%BD%B3%E8%8F%9C%E5%AD%90-%E7%A6%8F%E5%B6%8B/)
+
+  - block: markdown
+    id: contact
+    design:
+      css_style: "text-align: center;"
+    content:
+      title: "Contact"
+      text: |
+        縺雁撫縺・粋繧上○縺ｯ縲∝・髢九・繝ｭ繝輔ぅ繝ｼ繝ｫ縺ｫ險倩ｼ峨・繝｡繝ｼ繝ｫ縺ｾ縺溘・蜷・ｨｮSNS縺九ｉ縺秘｣邨｡縺上□縺輔＞縲・---
+
+

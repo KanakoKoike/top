@@ -45,7 +45,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 #logo img {
-  width: clamp(140px, 26vw, 260px);
+  width: clamp(280px, 50vw, 560px);
 }
 
 #menubar ul {
