@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Project Pages live under /top/
+Sitemap: https://kanakokoike.github.io/top/sitemap.xml
+
