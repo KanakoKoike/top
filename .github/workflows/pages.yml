@@ -1,4 +1,3 @@
-# .github/workflows/pages.yml
 name: Deploy Hugo site to GitHub Pages
 
 on:
@@ -12,7 +11,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: "pages-hugo"   # ← 衝突回避のため固有名
   cancel-in-progress: true
 
 jobs:
@@ -24,17 +23,13 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "0.127.0"
           extended: true
-
       - name: Build
-        run: |
-          hugo --minify --baseURL "https://kanakokoike.github.io/top/"
-
+        run: hugo --minify --baseURL "https://kanakokoike.github.io/top/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
