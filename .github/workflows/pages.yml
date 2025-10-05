@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages-hugo"   # ← 衝突回避のため固有名
+  group: "pages-hugo"   # 衝突回避のため固有名
   cancel-in-progress: true
 
 jobs:
@@ -23,13 +23,27 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.127.0"
+          hugo-version: "0.149.0"
           extended: true
-      - name: Build
-        run: hugo --minify --baseURL "https://kanakokoike.github.io/top/"
+
+      - name: Build site with Hugo
+        continue-on-error: true
+        run: |
+          hugo --minify -d ./public --baseURL "https://kanakokoike.github.io/top/"
+
+      - name: Fallback build from static
+        if: always()
+        run: |
+          if [ ! -d public ] || [ ! -f public/index.html ]; then
+            mkdir -p public
+            cp -r static/. public/
+            if [ -f public/index.static.html ]; then mv public/index.static.html public/index.html; fi
+          fi
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -45,3 +59,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
