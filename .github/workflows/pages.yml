@@ -29,6 +29,14 @@ jobs:
         with:
           hugo-version: "0.149.0"
           extended: true
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+      - name: Install frontend dependencies
+        if: ${{ hashFiles('package-lock.json') != '' }}
+        run: npm ci
 
       - name: Build site with Hugo
         continue-on-error: true
